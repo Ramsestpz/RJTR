@@ -1,0 +1,64 @@
+.imagenProducto{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
